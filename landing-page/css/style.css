@@ -1,0 +1,136 @@
+* {
+    box-sizing: border;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    margin: 0  auto;
+    padding: 2rem;
+}
+
+header {
+    min-height: 20rem;
+    background-color: #eee;
+    text-align: center;
+    background: url(../images/dustin-lee-19667_sm.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+footer {
+    background-color: #122D29;
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6, .title {
+    font-family: 'Crimson Text', serif;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+h5 {
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 1.3rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+h2 {
+    font-size: 1.9rem;
+}
+h1 {
+    font-size: 2.2rem;
+}
+
+.logo  {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5rem auto;
+}
+.branding {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-family: 'Medula One', cursive;
+    display: inline-block;
+    background-color: #122D29;
+    color:#fff;
+
+    border-radius: 300px;
+    padding: 3rem 2.345rem;
+}
+.title {
+    line-height: 3rem;
+}
+
+#features ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+#features ul li {
+    list-style-type: none;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+#features ul li h3 {
+    color: #122D29;
+}
+
+#features ul li p {
+    text-align: justify;
+}
+
+#features ul li span {
+    display: inline-block;
+    background-color: #122D29;
+    color: #fff;
+    border-radius: 300px;
+    padding: 3.5rem 2.155rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer #mc_embed_signup {
+    padding: 2rem;
+}
+
+footer #mc_embed_signup label {
+    display: block;
+    width: 100%;
+    padding: .5rem 0;
+}
+footer #mc_embed_signup input[type=text], footer #mc_embed_signup input[type=email] {
+    display: block;
+    width: 100%;
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    border: 1px solid #fff;
+    background-color: #385652;
+    color: #fff;
+}
+footer #mc_embed_signup .button {
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    background-color: #09211E;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #385652;
+}
