@@ -70,16 +70,10 @@ a:hover, a:focus {
     font-weight: bold;
     margin: 5rem auto;
 }
-.branding {
-    font-size: 4rem;
-    line-height: 4rem;
-    font-family: 'Medula One', cursive;
-    display: inline-block;
-    background-color: #122D29;
-    color:#fff;
-
-    border-radius: 300px;
-    padding: 3rem 2.345rem;
+.logo img {
+    display: block;
+    clear: right;
+    margin: auto;
 }
 .title {
     line-height: 3rem;
@@ -145,4 +139,17 @@ footer #mc_embed_signup .button {
     color: #fff;
     border-radius: 10px;
     border: 1px solid #385652;
+}
+
+@media (max-width: 739px) {
+    #features ul {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
