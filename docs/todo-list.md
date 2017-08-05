@@ -1,5 +1,7 @@
 # Project Todo List
 
+Moved to [Trello](https://trello.com/b/VZB6vNX4)
+
 ## Overall Versions
 
 [ ] Web Api & App v1.0.0
@@ -14,7 +16,7 @@
 
 
 ## Itemized Task List
-[ ] Mailchimp Interest Email List
-[ ] My Writing Notebook landing page 
+[X] Mailchimp Interest Email List
+[X] My Writing Notebook landing page 
 [ ] Write Software requirements
 [ ] Decide to use single db or multitenant approach

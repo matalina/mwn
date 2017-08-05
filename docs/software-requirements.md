@@ -8,11 +8,13 @@ The purpose of the application is to provide a solution for every writer to use 
 * Uses markdown to format documents
 * Revision tracking & history
 * Word Count by page, folder, project, account
-* Spell checking (grammar and other reports?)
 * Local Storage/Offline
 * Syncing with server
 * Save to DropBox, Google Drive
 * Web app, phone app, & desktop app
+* Spell checking
+* grammar check
+* word count and frequent use words (to, when, in <emotion>, could see, the sound of, realized, very ...)
 
 ### Users
 * Users register 

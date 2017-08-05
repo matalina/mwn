@@ -1,5 +1,7 @@
 # Multi-tenant Database Schema
 
+https://hackernoon.com/simple-multi-tenancy-with-laravel-b3f84fc13c39
+
 ## Shared Database Tables
 
 * users - table listing all notebook owners
